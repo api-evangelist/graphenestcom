@@ -1,7 +1,19 @@
 aid: graphenestcom
 name: graphenest.com
-description: graphenest.com is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Graphenest is a Portuguese nano-cleantech company that develops sustainable,
+  high-performance graphene-based materials for electromagnetic interference
+  (EMI/EMC/RF) shielding. Its proprietary, scalable and low-energy graphene
+  production process powers two industrial-ready product lines: HexaShield, a
+  sprayable conductive coating for high-frequency applications, and G-Shield, a
+  family of conductive thermoplastics for extrusion and injection moulding, plus
+  the G-Prime graphene material. The solutions deliver higher shielding
+  performance at lower cost and weight (up to 75% lighter than metal
+  alternatives) for Tier 1/Tier 2 manufacturers in batteries, electronics,
+  telecom (radar, LiDAR, 5G/6G), and cables & wires. Graphenest is a materials
+  and manufacturing company; it publishes no public developer API, SDK, or
+  developer portal. This profile was surfaced as a Techstars-linked portfolio
+  lead and enriched from the company's public website.
 url: https://raw.githubusercontent.com/api-evangelist/graphenestcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://graphenest.com/wp-content/uploads/2024/12/Ativo-5-min.png
 tags:
 - Company
+- Graphene
+- Nanotechnology
+- Advanced Materials
+- EMI Shielding
+- Electromagnetic Compatibility
+- Conductive Coatings
+- Cleantech
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/graphenestcom-domain-security.yml
 - type: Website
   url: https://graphenest.com/
+- type: About
+  url: https://graphenest.com/about-us/
+- type: Projects
+  url: https://graphenest.com/projects/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/10160689/
+- type: Twitter
+  url: https://twitter.com/Graphenest
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
